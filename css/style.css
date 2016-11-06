@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Playfair+Display+SC");
+
+body {
+    min-width: 40em;
+    background-color: #eee;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+header {
+    height: 30em;
+    background-image: url("../img/header-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+/* TODO: Centering is rather crude right now. */
+header h1 {
+    margin: 0;
+    padding-top: 1em;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 8em;
+    text-align: center;
+}
+
+main {
+    font-size: 1.3em;
+    padding: 1em;
+    max-width: 80em;
+}
+
+footer {
+    font-size: 1.1em;
+    padding: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+
+main, footer {
+    margin: 0 auto;
+}
+
+/* TODO: Center images. */
+img {
+    padding: 0.5em 0;
+}
