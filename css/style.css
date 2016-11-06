@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Playfair+Display+SC");
 
 body {
+    margin: 0;
     min-width: 40em;
     background-color: #eee;
     font-family: 'Frank Ruhl Libre', sans-serif;
@@ -12,14 +13,14 @@ h1 {
 
 header {
     height: 30em;
-    background-image: url("../img/header-bg.jpeg");
+    background-image: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     color: white;
 }
 
 /* TODO: Centering is rather crude right now. */
-header h1 {
+header p {
     margin: 0;
     padding-top: 1em;
     font-family: 'Playfair Display SC', serif;
