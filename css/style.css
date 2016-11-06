@@ -11,6 +11,10 @@ h1 {
     font-size: 1.8em;
 }
 
+p {
+    text-align: justify;
+}
+
 header {
     height: 30em;
     background-image: url("../img/header-bg.jpeg");
@@ -31,7 +35,7 @@ header p {
 main {
     font-size: 1.3em;
     padding: 1em;
-    max-width: 80em;
+    max-width: 77%;
 }
 
 footer {
