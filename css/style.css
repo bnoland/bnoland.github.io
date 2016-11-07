@@ -5,6 +5,7 @@ body {
     min-width: 40em;
     background-color: #eee;
     font-family: 'Frank Ruhl Libre', sans-serif;
+    color: #444;
 }
 
 h1 {
@@ -27,6 +28,11 @@ header p {
     font-size: 8em;
 }
 
+/* Hide the navigation bar until I get around to adding some other pages. */
+nav {
+    display: none;
+}
+
 nav a {
     padding: 0 0.5em;
     color: white;
@@ -43,6 +49,10 @@ main p {
     text-align: justify;
 }
 
+main a {
+    color: #5c99ff;
+}
+
 footer {
     font-size: 1.1em;
     padding: 1.5em;
@@ -54,7 +64,15 @@ main, footer {
     margin: 0 auto;
 }
 
-/* TODO: Center images? */
-img {
-    padding: 0.5em 0;
+.centered-block {
+    display: block;
+    margin: 0 auto;
+}
+
+#self-image {
+    width: 45%;
+}
+
+#self-image img {
+    width: 100%;
 }
