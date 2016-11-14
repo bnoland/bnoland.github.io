@@ -4,7 +4,7 @@ body {
     margin: 0;
     min-width: 40em;
     background-color: #eee;
-    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-family: "Frank Ruhl Libre", sans-serif;
     color: #444;
 }
 
@@ -18,7 +18,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    font-family: 'Playfair Display SC', serif;
+    font-family: "Playfair Display SC", serif;
     text-align: center;
 }
 
