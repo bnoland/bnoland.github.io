@@ -30,7 +30,7 @@ header p {
 
 /* Hide the navigation bar until I get around to adding some other pages. */
 nav {
-    display: none;
+    /*display: none;*/
 }
 
 nav a {
