@@ -28,7 +28,8 @@ header p {
   font-size: 8em;
 }
 
-/* Hide the navigation bar until I get around to adding some other pages. */
+/* Hide the navigation bar until I get around to adding some other
+   pages. */
 nav {
   /*display: none;*/
 }
